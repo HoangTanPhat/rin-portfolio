@@ -14,7 +14,7 @@ export default function SocialMediaSection() {
         <h2 className='text-2xl text-textSecondary my-8'>Social Media Post</h2>
         <div className="grid grid-cols-3 gap-3 w-full mb-3">
             <div className='relative aspect-square'>
-                <ImageWithText src={monteSocialMedia} title="BRAND: MONTE" href="#" />
+                <ImageWithText src={monteSocialMedia} title="BRAND: MONTE" href="/works/monte" />
             </div>
             <div className='relative aspect-square'>
                 <ImageWithText src={onTheBodyMedia} title="BRAND: ON THE BODY" href="#" />

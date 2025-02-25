@@ -17,7 +17,7 @@ export default function ProductBreadcrumbList({ list, dividedPosition = 'bottom'
     <div className='flex flex-row gap-2 items-center justify-center pb-2'>
       {list.map((item, index) => {
         return (
-          <React.Fragment key={index}>
+          <React.Fragment key={dividedPosition + index}>
             <div className='flex flex-row gap-2'>
               <ProductBreadcrumbItem
                 id={item.id}
