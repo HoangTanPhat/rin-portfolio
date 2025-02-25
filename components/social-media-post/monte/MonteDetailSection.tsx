@@ -2,17 +2,13 @@
 
 import React from "react";
 import ImageWithText from "@/components/layout/ImageWithText";
-import Instaplay from 'player.style/instaplay/react';
+import VideoPlayer from "@/components/layout/VideoPlayer";
 
-import Video from 'next-video';
 import img1 from "@/lib/images/social-media-post-monte/1.png";
 import img2 from "@/lib/images/social-media-post-monte/2.png";
 import img3 from "@/lib/images/social-media-post-monte/3.png";
 import img4 from "@/lib/images/social-media-post-monte/4.png";
 import img5 from "@/lib/images/social-media-post-monte/5.png";
-import img6 from "@/lib/images/social-media-post-monte/6.png";
-
-import video6 from "@/videos/social-media-post-monte/6.mp4";
 
 export default function MonteDetailSection() {
   return (
@@ -27,14 +23,39 @@ export default function MonteDetailSection() {
         <div className="relative aspect-square">
           <ImageWithText src={img3} />
         </div>
-        <div className="relative aspect-square ">
+        <div className="relative aspect-square">
           <ImageWithText src={img4} />
         </div>
-        <div className="relative aspect-square ">
+        <div className="relative aspect-square">
           <ImageWithText src={img5} />
         </div>
+        <div className="relative aspect-square">
+          <VideoPlayer
+            publicId="6_ropase"
+            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740501224/6_w0rwxn.png"
+            id="social-media-post-monte-video-1"
+          />
+        </div>
         <div className="relative aspect-square ">
-          <Video src={video6} theme={Instaplay} style={{ width: '100%', height: '100%', aspectRatio: 1/1 }} poster={img6.src}  blurDataURL={img6.blurDataURL} />
+          <VideoPlayer
+            publicId="7_qtklvp"
+            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740502824/7_vjujtq.png"
+            id="social-media-post-monte-video-2"
+          />
+        </div>
+        <div className="relative aspect-square">
+          <VideoPlayer
+            publicId="8_m1mgsb"
+            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740503373/8_a5wjpe.png"
+            id="social-media-post-monte-video-3"
+          />
+        </div>
+        <div className="relative aspect-square">
+          <VideoPlayer
+            publicId="9_lmmbhp"
+            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740503525/9_daosvh.png"
+            id="social-media-post-monte-video-4"
+          />
         </div>
       </div>
     </section>

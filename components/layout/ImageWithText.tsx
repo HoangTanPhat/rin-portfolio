@@ -23,7 +23,7 @@ export default function ImageWithText({
     return (
       <React.Fragment>
         <Image
-        className="aspect-square rounded-sm"
+        className="aspect-square rounded-md"
         src={typeof src === "string" ? src : src.src}
         fill
         alt="Social media post item"
@@ -31,7 +31,7 @@ export default function ImageWithText({
       />
       {!loaded && (
             <Skeleton 
-                className='bg-gray-500 rounded-sm'
+                className='bg-gray-500 rounded-md'
                 variant="rectangular"
                 width="100%"
                 height="100%"

@@ -5,3 +5,10 @@
 html {
     scroll-behavior: smooth;
 }
+
+.video-clip-path{
+    .vjs-poster {
+        background: transparent !important;
+    }
+
+}
