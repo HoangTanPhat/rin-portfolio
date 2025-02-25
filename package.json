@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev & npx next-video sync -w",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -18,6 +18,8 @@
     "lottie-react": "^2.4.1",
     "next": "15.1.7",
     "next-seo": "^6.6.0",
+    "next-video": "^2.1.0",
+    "player.style": "^0.1.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
