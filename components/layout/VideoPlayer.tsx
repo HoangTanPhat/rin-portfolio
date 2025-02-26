@@ -35,7 +35,7 @@ export default function VideoPlayer({
 
       {!loaded && (
         <Skeleton
-          className="bg-gray-500 rounded-md absolute top-0 right-0 left-0 bottom-0"
+          className="bg-gray-300 rounded-md absolute top-0 right-0 left-0 bottom-0"
           variant="rectangular"
           width="100%"
           height="100%"

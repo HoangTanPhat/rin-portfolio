@@ -68,91 +68,78 @@ export default function TigerBalmDetailSection() {
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="15_hb5tti"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-1"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="16_hn8sf4"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-2"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="17_lxwimt"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-3"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="18_wyyqcz"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-4"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="19_rkdonk"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-5"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="20_hs5nj8"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-6"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="21_zoibwo"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-7"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="23_ai6myv"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-8"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="24_qbujcl"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-9"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="25_wltibc"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-10"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="26_yfjqod"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-11"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="27_vf8c8b"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-12"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="28_xqf0zg"
-            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-tiger-balm-video-13"
           />
         </div>

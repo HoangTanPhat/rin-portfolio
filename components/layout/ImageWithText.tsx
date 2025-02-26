@@ -27,11 +27,11 @@ export default function ImageWithText({
         src={typeof src === "string" ? src : src.src}
         fill
         alt="Social media post item"
-        onLoadingComplete={() => setLoaded(true)}
+        onLoad={() => setLoaded(true)}
       />
       {!loaded && (
             <Skeleton 
-                className='bg-gray-500 rounded-md'
+                className='bg-gray-300 rounded-md'
                 variant="rectangular"
                 width="100%"
                 height="100%"
@@ -54,11 +54,11 @@ export default function ImageWithText({
         src={typeof src === "string" ? src : src.src}
         fill
         alt="Social media post item"
-        onLoadingComplete={() => setLoaded(true)}
+        onLoad={() => setLoaded(true)}
       />
       {!loaded && (
             <Skeleton 
-                className='bg-gray-500 rounded-sm'
+                className='bg-gray-300 rounded-sm'
                 variant="rectangular"
                 width="100%"
                 height="100%"

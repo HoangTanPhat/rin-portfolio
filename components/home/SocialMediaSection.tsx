@@ -23,10 +23,10 @@ export default function SocialMediaSection() {
                 <ImageWithText src={tgbMedia} title="BRAND: TIGER BALM" href="/works/tiger-balm" />
             </div>
             <div className='relative aspect-square '>
-                <ImageWithText src={physiogelMedia} title="BRAND: PHYSIOGEL" href="#" />
+                <ImageWithText src={physiogelMedia} title="BRAND: PHYSIOGEL" href="/works/physiogel" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={pulseInnovatesMedia} title="BRAND: PULSE INNOVATES" href="#" />
+                <ImageWithText src={pulseInnovatesMedia} title="BRAND: PULSE INNOVATES" href="/works/pulse-innovates" />
             </div>
         </div>
     </section>
