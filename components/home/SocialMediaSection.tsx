@@ -17,10 +17,10 @@ export default function SocialMediaSection() {
                 <ImageWithText src={monteSocialMedia} title="BRAND: MONTE" href="/works/monte" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={onTheBodyMedia} title="BRAND: ON THE BODY" href="#" />
+                <ImageWithText src={onTheBodyMedia} title="BRAND: ON THE BODY" href="/works/on-the-body" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={tgbMedia} title="BRAND: TIGER BALM" href="#" />
+                <ImageWithText src={tgbMedia} title="BRAND: TIGER BALM" href="/works/tiger-balm" />
             </div>
             <div className='relative aspect-square '>
                 <ImageWithText src={physiogelMedia} title="BRAND: PHYSIOGEL" href="#" />
