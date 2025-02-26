@@ -40,56 +40,56 @@ export default function OnTheBodyDetailSection() {
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="8_ccrz4w"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/8_q4mmu3.png"
             id="social-media-post-on-the-body-video-1"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="10_rnksso"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/9_ofhigm.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740584711/9_ofhigm.png"
             id="social-media-post-on-the-body-video-2"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="9_lbpcx4"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585069/10_dldrij.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585069/10_dldrij.png"
             id="social-media-post-on-the-body-video-3"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="12_q0xecl"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585157/11_j6vctj.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585157/11_j6vctj.png"
             id="social-media-post-on-the-body-video-4"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="11_sfnwgh"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585193/12_ouvusd.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585193/12_ouvusd.png"
             id="social-media-post-on-the-body-video-5"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="13_uq6qlr"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585562/13_k6v8ha.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585562/13_k6v8ha.png"
             id="social-media-post-on-the-body-video-6"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="14_djhji4"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585562/14_di6wxr.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585562/14_di6wxr.png"
             id="social-media-post-on-the-body-video-7"
           />
         </div>
         <div className="relative aspect-square">
           <VideoPlayer
             publicId="15_yz6snl"
-            poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585562/15_pywsx0.png"
+            // poster="https://res.cloudinary.com/djw6zuvia/image/upload/v1740585562/15_pywsx0.png"
             id="social-media-post-on-the-body-video-8"
           />
         </div>
