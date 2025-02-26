@@ -7,14 +7,16 @@ export interface ProductBreadcrumbItemProps {
   id: string;
   title: string;
   href?: string;
+  currentActive?: string;
 }
 
 export default function ProductBreadcrumbItem({
   id,
   title = "",
   href = "/",
+  currentActive
 }: ProductBreadcrumbItemProps) {
-  const [active, setActive] = useState<string>('');
+  const [active, setActive] = useState<string>(currentActive || '');
 
   useEffect(() => {
     if (window.location.hash) {
@@ -31,7 +33,7 @@ export default function ProductBreadcrumbItem({
 
   return (
     <Link href={href} passHref title={title} aria-label={title}>
-      <button className={`hover:text-textPink transition-colors ${active === id ? 'text-textPink' : 'text-textPrimary'} justify-center min-h-[50px] relative rounded-0 overflow-hidden text-ellipsis whitespace-nowrap`}>
+      <button className={`hover:text-textPink transition-colors ${active === id || currentActive === id ? 'text-textPink' : 'text-textPrimary'} justify-center min-h-[50px] relative rounded-0 overflow-hidden text-ellipsis whitespace-nowrap`}>
         <h3 className="text-base uppercase">{title}</h3>
       </button>
     </Link>

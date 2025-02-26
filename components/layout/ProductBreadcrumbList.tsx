@@ -6,11 +6,12 @@ import ProductBreadcrumbItem, {
 } from "./ProductBreadcrumbItem";
 
 interface ProductBreadcrumbList {
+  active?: string
   dividedPosition: "top" | "bottom"
   list: ProductBreadcrumbItemProps[];
 }
 
-export default function ProductBreadcrumbList({ list, dividedPosition = 'bottom' }: ProductBreadcrumbList) {
+export default function ProductBreadcrumbList({ active, list, dividedPosition = 'bottom' }: ProductBreadcrumbList) {
   return (
     <div className='py-5'>
     { dividedPosition === 'top' && <hr className='border-textPrimary pb-2' /> }
@@ -23,6 +24,7 @@ export default function ProductBreadcrumbList({ list, dividedPosition = 'bottom'
                 id={item.id}
                 title={item.title}
                 href={item.href}
+                currentActive={active}
               />
             </div>
             {index < list.length - 1 && <span>/</span>}

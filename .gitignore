@@ -46,3 +46,6 @@ next-env.d.ts
 # !videos/*.js
 # !videos/*.ts
 # public/_next-video
+.env*.local
+
+public/_next-video
