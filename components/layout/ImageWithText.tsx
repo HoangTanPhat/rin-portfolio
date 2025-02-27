@@ -23,10 +23,11 @@ export default function ImageWithText({
     return (
       <React.Fragment>
         <Image
-        className="aspect-square rounded-md"
+        className="aspect-square rounded-md object-cover object-center"
         src={typeof src === "string" ? src : src.src}
         fill
         alt="Social media post item"
+        sizes="(max-width: 768px) 100vw, (max-width: 1280px) 70vw, 45vw"
         onLoad={() => setLoaded(true)}
       />
       {!loaded && (
@@ -53,6 +54,7 @@ export default function ImageWithText({
         className="aspect-square rounded-sm"
         src={typeof src === "string" ? src : src.src}
         fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1280px) 70vw, 45vw"
         alt="Social media post item"
         onLoad={() => setLoaded(true)}
       />

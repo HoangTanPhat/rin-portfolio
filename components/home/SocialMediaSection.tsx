@@ -14,19 +14,19 @@ export default function SocialMediaSection() {
         <h2 className='text-2xl text-textSecondary my-8'>Social Media Post</h2>
         <div className="grid grid-cols-3 gap-3 w-full mb-3">
             <div className='relative aspect-square'>
-                <ImageWithText src={monteSocialMedia} title="BRAND: MONTE" href="/works/monte" />
+                <ImageWithText src={monteSocialMedia} title="BRAND: MONTE" href="/social-media-post/monte" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={onTheBodyMedia} title="BRAND: ON THE BODY" href="/works/on-the-body" />
+                <ImageWithText src={onTheBodyMedia} title="BRAND: ON THE BODY" href="/social-media-post/on-the-body" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={tgbMedia} title="BRAND: TIGER BALM" href="/works/tiger-balm" />
+                <ImageWithText src={tgbMedia} title="BRAND: TIGER BALM" href="/social-media-post/tiger-balm" />
             </div>
             <div className='relative aspect-square '>
-                <ImageWithText src={physiogelMedia} title="BRAND: PHYSIOGEL" href="/works/physiogel" />
+                <ImageWithText src={physiogelMedia} title="BRAND: PHYSIOGEL" href="/social-media-post/physiogel" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={pulseInnovatesMedia} title="BRAND: PULSE INNOVATES" href="/works/pulse-innovates" />
+                <ImageWithText src={pulseInnovatesMedia} title="BRAND: PULSE INNOVATES" href="/social-media-post/pulse-innovates" />
             </div>
         </div>
     </section>

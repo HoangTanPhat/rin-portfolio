@@ -1,52 +1,62 @@
+'use client';
+
 import ProductBreadcrumbList from "./ProductBreadcrumbList";
 import Image from "next/image";
 import igIcon from "@/lib/images/instagram-icon.svg";
 import linkedinIcon from "@/lib/images/linkedin-icon.svg";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
+import { useState, useEffect } from 'react';
 
 export default function Footer() {
+  const pathName = usePathname();
+  const [active, setActive] = useState<string>('');
+
+  useEffect(() => {
+    if (pathName !== '/') {
+      const mainCategory = pathName.substring(1).split('/')[0];
+      if (mainCategory) {
+        setActive(mainCategory);
+      }
+    }
+  }, [pathName]);
+
   const productsList = [
     {
-      index: 0,
       id: "social-media-post",
       title: "Social Media Post",
-      href: "#social-media-post",
+      href: "/#social-media-post",
     },
     {
-      index: 1,
       id: "shooting",
       title: "Shooting",
-      href: "#shooting",
+      href: "/#shooting",
     },
     {
-      index: 2,
       id: "branding",
       title: "Branding",
-      href: "#branding",
+      href: "/#branding",
     },
     {
-      index: 3,
       id: "website",
       title: "Website",
-      href: "#website",
+      href: "/#website",
     },
     {
-      index: 4,
       id: "magazine",
       title: "Magazine",
-      href: "#magazine",
+      href: "/#magazine",
     },
     {
-      index: 5,
       id: "projects",
       title: "Projects",
-      href: "#projects",
+      href: "/#projects",
     },
   ];
 
   return (
     <footer className="pt-4 pb-10 max-w-5xl m-auto">
-      <ProductBreadcrumbList dividedPosition="top" list={productsList} />
+      <ProductBreadcrumbList dividedPosition="top" active={active} list={productsList} />
       <div className="relative w-full max-w-sm m-auto mb-10">
         <input
           type="text"

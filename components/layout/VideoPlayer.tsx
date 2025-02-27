@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Skeleton from "@mui/material/Skeleton";
 import { CldVideoPlayer } from "next-cloudinary";
 import "next-cloudinary/dist/cld-video-player.css";
@@ -18,20 +18,26 @@ export default function VideoPlayer({
   poster,
 }: VideoPlayerProps) {
   const [loaded, setLoaded] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+    return () => setIsMounted(false); // Cleanup on unmount
+  }, []);
 
   return (
     <div className='relative'>
-        <CldVideoPlayer
+        {isMounted && <CldVideoPlayer
           width="1080"
           height="1080"
           src={publicId}
-          id={id}
+          id={`video-${id}`}
           logo={false}
           poster={poster}
           hideContextMenu={true}
           onDataLoad={() => setLoaded(true)}
           className="rounded-md video-clip-path"
-        />
+        />}
 
       {!loaded && (
         <Skeleton

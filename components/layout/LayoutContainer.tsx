@@ -12,7 +12,7 @@ export default function LayoutContainer({ children }: LayoutContainerProps) {
   return (
     <>
       <Header />
-      <div className='px-6'>{children}</div>
+      <main className='px-6'>{children}</main>
       <Footer />
     </>
   );
