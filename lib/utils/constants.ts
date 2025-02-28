@@ -1,3 +1,40 @@
+export const productsList: {
+  id: string,
+  title: string,
+  href: string
+}[] = [
+    {
+      id: "social-media-post",
+      title: "Social Media Post",
+      href: "/#social-media-post",
+    },
+    {
+      id: "shooting",
+      title: "Shooting",
+      href: "/#shooting",
+    },
+    {
+      id: "branding",
+      title: "Branding",
+      href: "/#branding",
+    },
+    {
+      id: "website",
+      title: "Website",
+      href: "/#website",
+    },
+    {
+      id: "magazine",
+      title: "Magazine",
+      href: "/#magazine",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+      href: "/#projects",
+    },
+  ];
+
 export const socialMediaItemList: {
     id: string;
     title: string;

@@ -19,15 +19,19 @@ export default function NavBarButton({
   href = "/",
 }: NavBarButtonProps) {
   const pathname = usePathname();
-  const [active, setActive] = useState<string | undefined>(undefined);
+  const [active, setActive] = useState<string>('/');
 
   useEffect(() => {
-    setActive(pathname);
+    if (pathname !== '/about') {
+      setActive('/');
+    } else {
+      setActive('/about')
+    }
   }, [pathname]);
 
   return (
     <Link href={href} passHref title={title} aria-label={title} scroll={false}>
-      <button className={`${active === href ? 'text-textPink' : 'text-textPrimary'} hover:text-textPink transition-colors text-textPrimary justify-center min-h-[50px] relative rounded-0 overflow-hidden text-ellipsis whitespace-nowrap`}>
+      <button className={`${active == href ? 'text-textPink' : 'text-textPrimary'} hover:text-textPink transition-colors justify-center min-h-[50px] relative rounded-0 overflow-hidden text-ellipsis whitespace-nowrap`}>
         <h3 className="text-base uppercase">{title}</h3>
       </button>
     </Link>

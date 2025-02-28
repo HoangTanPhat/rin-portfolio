@@ -5,22 +5,8 @@ import Image from "next/image";
 import igIcon from "@/lib/images/instagram-icon.svg";
 import linkedinIcon from "@/lib/images/linkedin-icon.svg";
 import Link from "next/link";
-import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
 
 export default function Footer() {
-  const pathName = usePathname();
-  const [active, setActive] = useState<string>('');
-
-  useEffect(() => {
-    if (pathName !== '/') {
-      const mainCategory = pathName.substring(1).split('/')[0];
-      if (mainCategory) {
-        setActive(mainCategory);
-      }
-    }
-  }, [pathName]);
-
   const productsList = [
     {
       id: "social-media-post",
@@ -56,7 +42,7 @@ export default function Footer() {
 
   return (
     <footer className="pt-4 pb-10 max-w-5xl m-auto">
-      <ProductBreadcrumbList dividedPosition="top" active={active} list={productsList} />
+      <ProductBreadcrumbList dividedPosition="top" list={productsList} />
       <div className="relative w-full max-w-sm m-auto mb-10">
         <input
           type="text"
