@@ -82,3 +82,25 @@ export const socialMediaItemList: {
         href: "/shooting/on-the-body",
       },
       ];
+
+      export const brandingItemList: {
+        id: string;
+        title: string;
+        href: string;
+    }[] = [
+        {
+          id: "pulse-innovates",
+          title: "Pulse Innovates",
+          href: "/branding/pulse-innovates",
+        },
+        {
+          id: "dang-khoi-travel",
+          title: "Dang Khoi Travel",
+          href: "/branding/dang-khoi-travel",
+        },
+        {
+          id: "xynio",
+          title: "Xynio",
+          href: "/branding/xynio",
+        },
+        ];

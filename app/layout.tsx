@@ -28,7 +28,8 @@ export default function RootLayout({
         backgroundImage: `url("/images/background-img.png")`,
         backgroundSize: '170px 170px',
         backgroundPosition: 'center',    
-        backgroundRepeat: 'repeat'    
+        backgroundRepeat: 'repeat',    
+        backgroundColor: '#fffff0'
         }}>
         <AllProviders>
           <LayoutContainer>{children}</LayoutContainer>
