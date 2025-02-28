@@ -38,6 +38,8 @@ export default function ProductBreadcrumbItem({
         if (mainCategory) {
           setActive(mainCategory);
         }
+      } else if (!window.location.hash) {
+        setActive('');
       }
     }, [pathName]);
 
@@ -45,7 +47,12 @@ export default function ProductBreadcrumbItem({
     const updateHash = () => {
       if (window.location.pathname === '/') {
         const hash = window.location.hash.substring(1);
+        console.log('Hash: ', hash);
         setActive(hash || '');
+      }
+
+      if (window.location.pathname === '/' && !window.location.hash) {
+        setActive('');
       }
     };
 

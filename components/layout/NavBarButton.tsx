@@ -1,6 +1,5 @@
 'use client';
 
-import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
@@ -30,10 +29,10 @@ export default function NavBarButton({
   }, [pathname]);
 
   return (
-    <Link href={href} passHref title={title} aria-label={title} scroll={false}>
+    <a href={href} title={title} aria-label={title}>
       <button className={`${active == href ? 'text-textPink' : 'text-textPrimary'} hover:text-textPink transition-colors justify-center min-h-[50px] relative rounded-0 overflow-hidden text-ellipsis whitespace-nowrap`}>
         <h3 className="text-base uppercase">{title}</h3>
       </button>
-    </Link>
+    </a>
   );
 }
