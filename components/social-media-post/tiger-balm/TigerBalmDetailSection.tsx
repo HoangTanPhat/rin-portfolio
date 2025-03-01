@@ -22,7 +22,7 @@ import img14 from "@/lib/images/social-media-post-tiger-balm/14.png";
 export default function TigerBalmDetailSection() {
   return (
     <section id="social-media-post" className="relative scroll-smooth">
-      <div className="grid grid-cols-3 gap-3 w-full mb-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
         <div className="relative aspect-square">
           <ImageWithText src={img1} />
         </div>

@@ -13,7 +13,7 @@ import img6 from "@/lib/images/social-media-post-pulse-innovates/6.png";
 export default function PulseViralDetailSection() {
   return (
     <section id="social-media-post-pulse-viral" className="relative scroll-smooth">
-      <div className="grid grid-cols-3 gap-3 w-full mb-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
         <div className="relative aspect-square">
           <ImageWithText src={img1} />
         </div>

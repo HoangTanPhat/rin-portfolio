@@ -41,8 +41,8 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="pt-4 pb-10 max-w-5xl m-auto px-4 md:px-6">
-      <ProductBreadcrumbList dividedPosition="top" list={productsList} />
+    <footer className="md:pt-4 pb-10 max-w-5xl m-auto px-4 md:px-6">
+      <ProductBreadcrumbList dividedPosition="top" isFooter={true} list={productsList} />
       <div className="relative w-full max-w-sm m-auto mb-10">
         <input
           type="text"
@@ -53,7 +53,7 @@ export default function Footer() {
           🔍
         </div>
       </div>
-      <div className="flex flex-row gap-4 justify-center">
+      <div className="flex flex-row gap-2 md:gap-4 justify-center">
         <Link
           href="https://www.instagram.com/lainguyentrong"
           passHref

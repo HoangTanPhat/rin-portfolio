@@ -7,7 +7,7 @@ export default function PulseInnovatesBrandingPage() {
   return (
     <div className="max-w-5xl m-auto">
       <hr className="border-textPrimary pb-5" />
-      <h1 className="text-2xl text-textSecondary font-semibold text-center">
+      <h1 className="text-xl md:text-2xl text-textSecondary font-semibold text-center">
         Branding
       </h1>
       <ProductBreadcrumbList
@@ -16,19 +16,19 @@ export default function PulseInnovatesBrandingPage() {
         list={brandingItemList}
       />
       <div className="py-5 space-y-5">
-        <p className="text-xl text-center font-semibold">
+        <p className="text-md md:text-xl text-center font-semibold">
           ABOUT
         </p>
-        <p className="text-xl text-center">
+        <p className="text-md md:text-xl text-center">
          At Pulse Innovates, we are the driving force behind your brand's evolution. As a team of dedicated marketing pioneers and creative visionaries, we craft dynamic campaigns that inspire change and deliver impactful results.
         </p>
-        <p className="text-xl text-center">
+        <p className="text-md md:text-xl text-center">
           <span className="font-semibold">Managing Director:</span> Sim Ai Sing
         </p>
-        <p className="text-xl text-center">
+        <p className="text-md md:text-xl text-center">
           <span className="font-semibold">Designer: </span><span className='text-textPink'>Nguyen Trong Lai</span>
         </p>
-        <p className="text-xl text-center font-semibold">
+        <p className="text-md md:text-xl text-center font-semibold">
           BRAND GUIDELINES
         </p>
       </div>

@@ -15,24 +15,24 @@ export default function PulseInnovatesPage() {
   return (
     <div className='max-w-5xl m-auto'>
       <hr className='border-textPrimary pb-5' />
-      <h1 className='text-2xl text-textSecondary font-semibold text-center'>Social Media Post</h1>
+      <h1 className='text-xl md:text-2xl text-textSecondary font-semibold text-center'>Social Media Post</h1>
       <ProductBreadcrumbList dividedPosition="bottom" active="pulse-innovates" list={socialMediaItemList} />
       <div className='py-5'>
-          <h2 className='font-bold text-xl text-center'>PULSE INNOVATES | PULSE VIRAL</h2>
-          <p className='text-xl text-center'>Visual Direction & Execution by Nguyen Trong Lai</p>
-          <p className='text-xl text-center'>Worked at Pulse Innovates</p>
+          <h2 className='font-bold text-md md:text-xl text-center'>PULSE INNOVATES | PULSE VIRAL</h2>
+          <p className='text-md md:text-xl text-center'>Visual Direction & Execution by <span className='whitespace-pre md:whitespace-normal'>Nguyen Trong Lai</span></p>
+          <p className='text-md md:text-xl text-center'>Worked at Pulse Innovates</p>
       </div>
       <PulseViralDetailSection />
       <div className='py-5'>
-          <h2 className='font-bold text-xl text-center'>PULSE INNOVATES | NSING</h2>
-          <p className='text-xl text-center'>Visual Direction & Execution by Nguyen Trong Lai</p>
-          <p className='text-xl text-center'>Worked at Pulse Innovates</p>
+          <h2 className='font-bold text-md md:text-xl text-center'>PULSE INNOVATES | NSING</h2>
+          <p className='text-md md:text-xl text-center'>Visual Direction & Execution by <span className='whitespace-pre md:whitespace-normal'>Nguyen Trong Lai</span></p>
+          <p className='text-md md:text-xl text-center'>Worked at Pulse Innovates</p>
       </div>
       <NSingDetailSection />
       <div className='py-5'>
-          <h2 className='font-bold text-xl text-center'>PULSE INNOVATES | XYNIO</h2>
-          <p className='text-xl text-center'>Visual Direction & Execution by Nguyen Trong Lai</p>
-          <p className='text-xl text-center'>Worked at Pulse Innovates</p>
+          <h2 className='font-bold text-md md:text-xl text-center'>PULSE INNOVATES | XYNIO</h2>
+          <p className='text-md md:text-xl text-center'>Visual Direction & Execution by <span className='whitespace-pre md:whitespace-normal'>Nguyen Trong Lai</span></p>
+          <p className='text-md md:text-xl text-center'>Worked at Pulse Innovates</p>
       </div>
       <XynioDetailSection />
     </div>

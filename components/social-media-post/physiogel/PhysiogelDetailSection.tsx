@@ -10,7 +10,7 @@ import img3 from "@/lib/images/social-media-post-physiogel/3.png";
 export default function PhysiogelDetailSection() {
   return (
     <section id="social-media-post" className="relative scroll-smooth">
-      <div className="grid grid-cols-3 gap-3 w-full mb-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
         <div className="relative aspect-square">
           <ImageWithText src={img1} />
         </div>
