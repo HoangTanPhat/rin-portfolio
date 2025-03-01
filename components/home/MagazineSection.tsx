@@ -7,8 +7,8 @@ import introvertMagazine from '@/lib/images/magazine-introvert.png';
 export default function MagazineSection() {
   return (
     <section id="magazine" className="relative scroll-smooth">
-        <h2 className='text-2xl text-textSecondary my-8'>Magazine</h2>
-        <div className="grid grid-cols-3 gap-3 w-full mb-3">
+        <h2 className='text-xl md:text-2xl text-textSecondary my-8'>Magazine</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
             <div className='relative aspect-square'>
                 <ImageWithText src={introvertMagazine} title="MAGAZINE: INTROVERT" href="#" />
             </div>

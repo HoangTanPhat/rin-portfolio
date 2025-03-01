@@ -11,8 +11,8 @@ import pulseInnovatesMedia from '@/lib/images/brand-pulse-innovates.png';
 export default function SocialMediaSection() {
   return (
     <section id="social-media-post" className="relative scroll-smooth">
-        <h2 className='text-2xl text-textSecondary my-8'>Social Media Post</h2>
-        <div className="grid grid-cols-3 gap-3 w-full mb-3">
+        <h2 className='text-xl md:text-2xl text-textSecondary my-4 md:my-8'>Social Media Post</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
             <div className='relative aspect-square'>
                 <ImageWithText src={monteSocialMedia} title="BRAND: MONTE" href="/social-media-post/monte" />
             </div>

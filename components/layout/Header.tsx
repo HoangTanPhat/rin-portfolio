@@ -28,8 +28,8 @@ export default function Header() {
   return (
     <Disclosure as="nav">
       {() => (
-        <header className="inset-x-0 top-0 z-50 px-6">
-          <div className='max-w-5xl bg-transparent m-auto py-2'>
+        <header className="inset-x-0 top-0 z-50 px-4 md:px-6">
+          <div className='max-w-5xl bg-transparent m-auto py-5'>
             <Toolbar variant="dense" sx={{ justifyContent: "center" }}>
               <div className="flex flex-row items-center justify-center gap-5 max-w-7xl">
                 <DisclosureButton

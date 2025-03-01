@@ -65,8 +65,8 @@ export default function ProductBreadcrumbItem({
 
   return (
     <a href={href} title={title} aria-label={title}>
-      <button className={`hover:text-textPink transition-colors ${active === id || currentActive === id ? 'text-textPink' : 'text-textPrimary'} justify-center min-h-[50px] relative rounded-0 overflow-hidden text-ellipsis whitespace-nowrap`}>
-        <h3 className="text-base uppercase">{title}</h3>
+      <button className={`hover:text-textPink transition-colors ${active === id || currentActive === id ? 'text-textPink' : 'text-textPrimary'} justify-center min-h-[20px] md:min-h-[50px] relative rounded-0 overflow-hidden text-ellipsis whitespace-nowrap`}>
+        <h3 className="text-sm md:text-base uppercase">{title}</h3>
       </button>
     </a>
   );

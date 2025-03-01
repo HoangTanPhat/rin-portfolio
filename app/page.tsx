@@ -40,7 +40,7 @@ export default function Home() {
   }];
 
   return (
-    <div className='max-w-5xl m-auto'>
+    <div>
       <BannerSection />
       <ProductBreadcrumbList dividedPosition="bottom" list={productsList} />
       <SocialMediaSection />

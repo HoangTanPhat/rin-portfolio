@@ -9,8 +9,8 @@ import xynioBranding from '@/lib/images/branding-xynio.png';
 export default function BrandingSection() {
   return (
     <section id="branding" className="relative scroll-smooth">
-        <h2 className='text-2xl text-textSecondary my-8'>Branding</h2>
-        <div className="grid grid-cols-3 gap-3 w-full mb-3">
+        <h2 className='text-xl md:text-2xl text-textSecondary my-8'>Branding</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
             <div className='relative aspect-square'>
                 <ImageWithText src={pulseInnovatesBranding} title="BRAND: PULSE INNOVATES" href="/branding/pulse-innovates" />
             </div>

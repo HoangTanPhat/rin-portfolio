@@ -41,7 +41,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="pt-4 pb-10 max-w-5xl m-auto">
+    <footer className="pt-4 pb-10 max-w-5xl m-auto px-4 md:px-6">
       <ProductBreadcrumbList dividedPosition="top" list={productsList} />
       <div className="relative w-full max-w-sm m-auto mb-10">
         <input
@@ -61,7 +61,7 @@ export default function Footer() {
           rel="noopener noreferrer" target="_blank"
           aria-label="Instagram"
         >
-          <div className="relative w-9 h-9 flex items-center justify-center">
+          <div className="relative w-7 h-7 md:w-9 md:h-9 flex items-center justify-center">
             <Image src={igIcon} fill alt="Social media icon" />
           </div>
         </Link>
@@ -72,7 +72,7 @@ export default function Footer() {
           rel="noopener noreferrer" target="_blank"
           aria-label="Linkedin"
         >
-          <div className="relative w-9 h-9 flex items-center justify-center">
+          <div className="relative w-7 h-7 md:w-9 md:h-9 flex items-center justify-center">
             <Image src={linkedinIcon} fill alt="Social media icon" />
           </div>
         </Link>

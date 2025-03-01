@@ -46,8 +46,8 @@ export default function ImageWithText({
   return (
     <Link href={href} passHref title={title} aria-label={title}>
         {loaded && 
-            <div className="absolute flex flex-col px-4 py-2 justify-end rounded-sm top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-transparent from-70% to-stone-700 z-10">
-                {title && <h3 className='text-white font-bold uppercase text-lg'>{title}</h3>}
+            <div className="absolute flex flex-col px-2 md:px-4 py-2 justify-end rounded-sm top-0 right-0 left-0 bottom-0 bg-gradient-to-b from-transparent from-60% to-stone-800 z-10">
+                {title && <h3 className='text-white font-bold uppercase text-md md:text-lg leading-[1.2]'>{title}</h3>}
             </div>
         }
       <Image
