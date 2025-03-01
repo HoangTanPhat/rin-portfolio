@@ -2,6 +2,12 @@
 import PulseInnovatesBrandingSection from "@/components/branding/pulse-innovates/PulseInnovatesBrandingSection";
 import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
 import { brandingItemList } from "@/lib/utils/constants";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Pulse Innovates - Branding | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
+}
 
 export default function PulseInnovatesBrandingPage() {
   return (

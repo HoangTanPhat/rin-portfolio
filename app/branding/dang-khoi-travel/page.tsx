@@ -2,6 +2,12 @@
 import DangKhoiTravelBrandingSection from "@/components/branding/dang-khoi-travel/DangKhoiTravelBrandingSection";
 import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
 import { brandingItemList } from "@/lib/utils/constants";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Đăng Khôi Travel - Branding | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
+}
 
 export default function DangKhoiTravelBrandingPage() {
   return (

@@ -12,12 +12,14 @@ export interface ImageWithTextProps {
   title?: string;
   href?: string;
   description?: string;
+  fullSize?: boolean
 }
 
 export default function ImageWithText({
   src,
   title,
   href,
+  fullSize
 }: ImageWithTextProps) {
     const [loaded, setLoaded] = useState(false);
     const [open, setOpen] = useState(false);
@@ -26,13 +28,15 @@ export default function ImageWithText({
     return (
       <React.Fragment>
         <Image
-        className={`aspect-square rounded-md object-cover object-center cursor-pointer ${!loaded ? 'pointer-events-none' : ''}`}
+        className={`${!fullSize ? 'aspect-square object-cover object-center' : 'w-full h-auto'} rounded-md cursor-pointer ${!loaded ? 'pointer-events-none' : ''}`}
         src={typeof src === "string" ? src : src.src}
-        fill
+        fill={!fullSize}
         alt="Social media post item"
         sizes="(max-width: 768px) 100vw, (max-width: 1280px) 70vw, 45vw"
         onLoad={() => setLoaded(true)}
         onClick={() => setOpen(true)}
+        width={fullSize ? 0 : undefined}
+        height={fullSize ? 0 : undefined}
       />
       {!loaded && (
             <Skeleton 

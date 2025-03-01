@@ -4,8 +4,8 @@ import { socialMediaItemList } from "@/lib/utils/constants";
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Physiogel - Works | Rin Portfolio',
-  description: 'Hello :) Welcome to my world!'
+  title: 'Physiogel - Social Media Post | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
 }
 
 export default function PhysiogelPage() {

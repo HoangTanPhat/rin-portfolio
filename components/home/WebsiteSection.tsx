@@ -11,10 +11,10 @@ export default function WebsiteSection() {
         <h2 className='text-xl md:text-2xl text-textSecondary my-8'>Website</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
             <div className='relative aspect-square'>
-                <ImageWithText src={dynamicDomainWebsite} title="BRAND: DYNAMIC DOMAIN" href="#" />
+                <ImageWithText src={dynamicDomainWebsite} title="BRAND: DYNAMIC DOMAIN" href="/website/dynamic-domain" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={xomMediaWebsite} title="BRAND: XOM COMMUNICATION" href="#" />
+                <ImageWithText src={xomMediaWebsite} title="BRAND: XOM COMMUNICATION" href="/website/xom-communication" />
             </div>
         </div>
     </section>

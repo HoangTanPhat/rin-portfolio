@@ -24,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={workSans.className}>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={workSans.className} style={{ 
         backgroundImage: `url("/images/background-img.png")`,
         backgroundSize: '170px 170px',

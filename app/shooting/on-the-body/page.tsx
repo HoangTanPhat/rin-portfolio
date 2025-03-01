@@ -1,6 +1,12 @@
 import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
 import OnTheBodyShootingDetail from "@/components/shooting/on-the-body/OnTheBodyShootingDetail";
 import { shootingItemList } from "@/lib/utils/constants";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'On The Body - Shooting | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
+}
 
 export default function OnTheBodyShootingPage() {
   const onTheBodyShootingConcept: {

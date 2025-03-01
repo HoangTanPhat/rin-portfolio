@@ -1,6 +1,12 @@
 import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
 import MonteDetailSection from "@/components/social-media-post/monte/MonteDetailSection";
 import { socialMediaItemList } from "@/lib/utils/constants";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Monte - Social Media Post | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
+}
 
 export default function MontePage() {
   return (

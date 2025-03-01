@@ -1,6 +1,12 @@
 import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
 import CoopMartShootingDetail from "@/components/shooting/coop-mart/CoopMartShootingDetail";
 import { shootingItemList } from "@/lib/utils/constants";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Co.op Mart - Shooting | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
+}
 
 export default function CoopMartShootingPage() {
   const coopMartShootingConcept: {

@@ -1,6 +1,12 @@
 import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
 import OnTheBodyDetailSection from "@/components/social-media-post/on-the-body/OnTheBodyDetailSection";
 import { socialMediaItemList } from "@/lib/utils/constants";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'On The Body - Social Media Post | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
+}
 
 export default function OnTheBodyPage() {
   return (

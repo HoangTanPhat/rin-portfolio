@@ -2,13 +2,12 @@ import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
 import PulseViralDetailSection from "@/components/social-media-post/pulse-innovates/PulseViralDetailSection";
 import NSingDetailSection from "@/components/social-media-post/pulse-innovates/NSingDetailSection";
 import XynioDetailSection from "@/components/social-media-post/pulse-innovates/XynioDetailSection";
-
 import { socialMediaItemList } from "@/lib/utils/constants";
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Pulse Innovates - Works | Rin Portfolio',
-  description: 'Hello :) Welcome to my world!'
+  title: 'Pulse Innovates - Social Media Post | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
 }
 
 export default function PulseInnovatesPage() {

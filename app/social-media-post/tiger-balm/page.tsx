@@ -4,8 +4,8 @@ import { socialMediaItemList } from "@/lib/utils/constants";
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Tiger Balm - Works | Rin Portfolio',
-  description: 'Hello :) Welcome to my world!'
+  title: 'Tiger Balm - Social Media Post | Rin Portfolio',
+  description: 'Hello :) Welcome to my portfolio website!'
 }
 
 export default function TigerBalmPage() {

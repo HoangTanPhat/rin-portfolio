@@ -18,7 +18,7 @@ export default function BrandingSection() {
                 <ImageWithText src={dangKhoiBranding} title="BRAND: DANG KHOI TRAVEL" href="/branding/dang-khoi-travel" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={xynioBranding} title="BRAND: XYNIO" href="#" />
+                <ImageWithText src={xynioBranding} title="BRAND: XYNIO" href="/branding/xynio" />
             </div>
         </div>
     </section>
