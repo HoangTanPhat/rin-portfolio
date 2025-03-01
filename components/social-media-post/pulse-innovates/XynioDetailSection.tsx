@@ -9,7 +9,7 @@ import img2 from "@/lib/images/social-media-post-pulse-innovates/10.png";
 export default function XynioDetailSection() {
   return (
     <section id="social-media-post-xynio" className="relative scroll-smooth">
-      <div className="grid grid-cols-2 gap-3 w-full mb-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3 w-full mb-3">
         <div className="relative aspect-video">
           <ImageWithText src={img1} />
         </div>
