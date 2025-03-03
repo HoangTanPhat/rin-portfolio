@@ -66,28 +66,3 @@ body {
       transform: translateY(0);
     }
   }
-
-::view-transition-old(slide-in-out),
-::view-transition-new(slide-in-out)  {
-    animation: none !important;
-}
-
-::view-transition-group(slide-in-out) {
-    z-index: auto !important;
-}
-
-::view-transition-image-pair(slide-in-out) {
-    isolation: isolate;
-    will-change: transform, opacity, clip-path;
-    z-index: 1;
-}
-
-::view-transition-new(slide-in-out) {
-    z-index: 10000;
-    animation: none !important;
-}
-
-::view-transition-old(slide-in-out) {
-    z-index: 1;
-    animation: none !important;
-}
