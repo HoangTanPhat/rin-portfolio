@@ -1,11 +1,12 @@
 "use client";
 
-import Link from "next/link";
+// import Link from "next/link";
 import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image";
 import Skeleton from '@mui/material/Skeleton';
 import { Dialog } from '@mui/material';
 import closeIcon from 'public/icons/close-white.png';
+import { Link } from 'next-view-transitions'
 
 export interface ImageWithTextProps {
   src: StaticImageData | string;

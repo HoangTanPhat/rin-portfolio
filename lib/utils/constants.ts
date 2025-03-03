@@ -112,13 +112,47 @@ export const websiteItemList: {
   href: string;
 }[] = [
   {
-    id: "xom-communication",
-    title: "Xom Communication",
-    href: "/website/xom-communication",
-  },
-  {
     id: "dynamic-domain",
     title: "Dynamic Domain",
     href: "/website/dynamic-domain",
   },
-  ];
+  {
+    id: "xom-communication",
+    title: "Xom Communication",
+    href: "/website/xom-communication",
+  },
+];
+
+export const magazineItemList: {
+  id: string;
+  title: string;
+  href: string;
+}[] = [
+  {
+    id: "introvert",
+    title: "Introvert",
+    href: "/magazine/introvert",
+  }
+];
+
+export const projectsItemList: {
+  id: string;
+  title: string;
+  href: string;
+}[] = [
+  {
+    id: "cospan",
+    title: "Cospan",
+    href: "/projects/cospan",
+  },
+  {
+    id: "ngoc-nguu",
+    title: "Ngọc Ngưu",
+    href: "/projects/ngoc-nguu",
+  },
+  {
+    id: "illustration",
+    title: "Illustration",
+    href: "/projects/illustration",
+  }
+];

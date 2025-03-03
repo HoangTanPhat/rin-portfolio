@@ -9,7 +9,7 @@ export default function DynamicDomainWebsiteSection() {
   return (
     <section id="xom-communication-website-section">
       <h2 className='uppercase text-md md:text-xl font-semibold text-center pb-10'>WEB DESIGN</h2>
-      <div className="gap-3 w-full mb-3">
+      <div className="flex flex-col gap-3 w-full mb-3">
         {
             images.map((src, itemIndex) => {
                 return (

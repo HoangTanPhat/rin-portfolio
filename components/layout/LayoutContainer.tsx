@@ -12,7 +12,7 @@ export default function LayoutContainer({ children }: LayoutContainerProps) {
   return (
     <>
       <Header />
-      <main className='px-4 md:px-6 max-w-5xl m-auto'>{children}</main>
+      <main className='px-4 md:px-6 max-w-5xl m-auto banner-transition'>{children}</main>
       <Footer />
     </>
   );
