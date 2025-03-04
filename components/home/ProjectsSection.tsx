@@ -23,7 +23,7 @@ export default function ProjectsSection({
                 <ImageWithText src={ngocNguuProjects} title="BRAND: NGOC NGUU" href="/projects/ngoc-nguu" />
             </div>
             <div className='relative aspect-square'>
-                <ImageWithText src={illustrationProjects} title="ILLUSTRATION" href="#" />
+                <ImageWithText src={illustrationProjects} title="ILLUSTRATION" href="/projects/illustration" />
             </div>
         </div>
     </AnimateSection>
