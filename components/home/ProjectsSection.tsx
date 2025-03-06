@@ -17,7 +17,7 @@ export default function ProjectsSection({
         {!noTitle && <h2 className='text-xl md:text-2xl text-textSecondary my-8'>Projects</h2>}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full mb-3">
             <div className='relative aspect-square'>
-                <ImageWithText src={cospanProjects} title="BRAND: COSPAN" href="#" />
+                <ImageWithText src={cospanProjects} title="BRAND: COSPAN" href="/projects/cospan" />
             </div>
             <div className='relative aspect-square'>
                 <ImageWithText src={ngocNguuProjects} title="BRAND: NGOC NGUU" href="/projects/ngoc-nguu" />

@@ -47,7 +47,7 @@ export default function NgocNguuProjectsSection() {
         })}
       </div>
       <h2 className="uppercase text-md md:text-xl font-semibold text-center py-5">
-        PRODUCT
+        PRODUCTS
       </h2>
       <div className="grid grid-cols-2 gap-3 w-full mb-3">
         {imagesProduct.map((src, itemIndex) => {
