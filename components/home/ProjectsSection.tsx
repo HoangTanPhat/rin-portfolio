@@ -4,7 +4,6 @@ import React from "react";
 import ImageWithText from "@/components/layout/ImageWithText";
 import cospanProjects from '@/lib/images/projects-cospan.png';
 import ngocNguuProjects from '@/lib/images/projects-ngoc-nguu.png';
-import illustrationProjects from '@/lib/images/projects-illu.png';
 import AnimateSection from '@/components/layout/AnimateSection';
 
 export default function ProjectsSection({

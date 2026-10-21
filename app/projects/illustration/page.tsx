@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import ProductBreadcrumbList from "@/components/layout/ProductBreadcrumbList";
-import IllustrationProjectsSection from "@/components/projects/illustration/IllustrationProjectsSection";
 import { projectsItemList } from "@/lib/utils/constants";
 import type { Metadata } from "next";
 
