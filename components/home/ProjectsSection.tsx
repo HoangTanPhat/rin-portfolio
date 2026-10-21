@@ -22,9 +22,9 @@ export default function ProjectsSection({
             <div className='relative aspect-square'>
                 <ImageWithText src={ngocNguuProjects} title="BRAND: NGOC NGUU" href="/projects/ngoc-nguu" />
             </div>
-            <div className='relative aspect-square'>
+            {/* <div className='relative aspect-square'>
                 <ImageWithText src={illustrationProjects} title="ILLUSTRATION" href="/projects/illustration" />
-            </div>
+            </div> */}
         </div>
     </AnimateSection>
   );

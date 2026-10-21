@@ -150,9 +150,9 @@ export const projectsItemList: {
     title: "Ngọc Ngưu",
     href: "/projects/ngoc-nguu",
   },
-  {
-    id: "illustration",
-    title: "Illustration",
-    href: "/projects/illustration",
-  }
+  // {
+  //   id: "illustration",
+  //   title: "Illustration",
+  //   href: "/projects/illustration",
+  // }
 ];

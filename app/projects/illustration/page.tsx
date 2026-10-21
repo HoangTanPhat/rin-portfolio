@@ -21,7 +21,7 @@ export default function IllustrationProjectsPage() {
         active="illustration"
         list={projectsItemList}
       />
-      <IllustrationProjectsSection />
+      {/* <IllustrationProjectsSection /> */}
     </div>
   );
 }
